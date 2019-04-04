@@ -1,0 +1,2 @@
+# Sample application with language-switch function
+Test of language-switch function using JavaScript. This sample is based on the knowledge of "[CSSおよびJavaScriptで言語切り替え](https://webparts.cman.jp/string/lang/)" and modified to initialize the selected button to the browser language.

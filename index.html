@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Sample</title>
+        <script src="langswitch.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="main_content">
+            <input type="radio" name="langKbn" id="sJa" lang="ja" onClick="langSet('ja')">
+            <label for="sJa">
+                <span>日本語</span>
+            </label>
+
+            <input type="radio" name="langKbn" id="sEn" lang="en" onClick="langSet('en')">
+            <label for="sEn">
+                <span>English</span>
+            </label>
+            
+            <input type="radio" name="langKbn" id="sZh" lang="zh" onClick="langSet('zh')">
+            <label for="sZh">
+            <span>中文</span>
+            </label>
+
+            <div>
+                <p class="langCng" lang="ja">言語の切り替えはCSSのセレクタを使用します。</p>
+                <p class="langCng" lang="en">Language switching uses CSS selector.</p>
+                <p class="langCng" lang="zh">语言切换使用CSS选择器。</p>
+
+                <p class="langCng" lang="ja">サンプルは日本語と英語の切り替えを行っています。</p>
+                <p class="langCng" lang="en">The sample is switching between Japanese and English.</p>
+                <p class="langCng" lang="zh">样本正在日语和英语之间切换。</p>
+            </div>
+        </div>
+    </body>
+</html>
